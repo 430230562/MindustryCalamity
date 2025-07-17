@@ -1,0 +1,61 @@
+{
+	"type":"AttributeCrafter",
+	"category":"production",
+
+	"research":{
+	"parent":"water-extractor-large",
+	"requirements":[
+	"tungsten/750",
+	"silicon/900",
+	"metaglass/600"
+	]	},
+
+	"requirements":[
+	"tungsten/70",
+	"silicon/20",
+	"metaglass/35"
+	],
+
+	"drawer":
+	{"type":"DrawMulti",
+	"drawers":[
+	"DrawDefault",
+	{"type":"DrawLiquidRegion",
+	"drawLiquid":"oil"
+	},
+	{"type":"DrawRegion",
+	"suffix":"-spinner",
+	"rotateSpeed":9,
+	"rotation":45
+	},
+	{"type":"DrawRegion",
+	"suffix":"-cap"
+	}	]	},
+
+	"consumes":{"power":2,
+	"items":{
+	"items":[
+	"sand/1"
+	]	},
+	"liquid":{
+	"liquid":"water","amount":0.2
+	}	},
+
+	"placeableLiquid":false,
+	"requiresWater":false,
+
+	"size":3,
+	"health":1160,
+	"hasLiquids":true,
+	"liquidCapacity":120,
+	"fogRadius":3,
+	"attribute":"oil",
+	"craftEffect":"turbinegenerate",
+	"craftTime":60,
+	"floating":true,
+	"baseEfficiency":0,
+	"outputLiquid":"oil/0.333333333333333",
+	"minEfficiency":1,
+	"displayEfficiencyScale":0.111111111111111,
+	"boostScale":0.11111111111111111
+}

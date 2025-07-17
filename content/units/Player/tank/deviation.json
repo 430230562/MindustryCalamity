@@ -1,0 +1,199 @@
+{
+	"type":"tank",
+	"template":"ErekirUnitType",
+
+	"squareShape":true,
+	"treadPullOffset":11,
+	"treadRects":[
+	{"x":78,"y":-134,
+	"width":46,"height":273
+	}	],
+	"crushDamage":2,
+	"singleTarget":false,
+	"omniMovement":false,
+	"outlineColor":"2E2F34FF",
+
+	"research":{
+	"parent":"disintegration",
+	"requirements":[
+	"chromium/60000",
+	"iridium/30000",
+	"osmium/30000",
+	"metaglass/50000",
+	"silicon/13000",
+	"plastanium/50000"
+	],
+	"objectives":[
+	"rudiment-assembler-module",
+	"senior-refabricator"
+	]	},
+
+	"armor":37,
+	"hitSize":70,
+	"rotateSpeed":1,
+	"speed":0.5,
+	"flying":false,
+	"health":25380,
+	"range":360,
+	"immunities":[
+	"wulfrum-amplify",
+	"empI",
+	"empII"
+],
+
+		"parts":[
+		{"type":"RegionPart",
+		"suffix":"-glow",
+		"layer":-1,
+		"mirror":true,
+		"blending":"additive",
+		"color":"D99F6BFF",
+		"colorTo":"FCF387FF",
+		"outline":false,
+		"progress":"warmup"
+		}	],
+
+	"weapons":[
+	{"name":"deviation-weapon",
+	"mirror":false,
+	"x":0,"y":-1.5,
+	"rotate":true,
+	"inaccuracy":1,
+	"rotateSpeed":1.1,
+	"cooldownTime":150,
+	"shootY":45,
+	"reload":210,
+	"recoil":2.25,
+	"top":true,
+	"heatColor":"FCF387FF",
+	"layerOffset":2,
+	"minWarmup":0.85,
+	"smoothReloadSpeed":0.08,
+	"shootWarmupSpeed":0.02,
+
+		"shootSound":"largeCannon",
+		"velocityRnd":0.06,
+		"shake":3,
+		"shoot":{
+		"type":"shootPattern",
+		"shots":3,
+		"shotDelay":3
+		},
+
+		"parts":[
+		{"type":"RegionPart",
+		"suffix":"-glow",
+		"layer":-1,
+		"mirror":true,
+		"blending":"additive",
+		"color":"D99F6BFF",
+		"colorTo":"FCF387FF",
+		"outline":false,
+		"progress":"warmup"
+		},
+		{"type":"RegionPart",
+		"suffix":"-blade",
+		"under":true,
+		"mirror":false,
+		"moveY":-4,
+		"heatColor":"FCF387FF",
+		"progress":{
+		"type":"recoil",
+		"op":"curve",
+		"interp":"pow2In"
+		}	},
+		{"type":"RegionPart",
+		"suffix":"-spine",
+		"mirror":true,
+		"moveRot":-44,
+		"moveX":5,
+		"layerOffset":-0.001,
+		"heatColor":"FCF387FF",
+		"y":-3,
+		"x":6,
+		"moves":[
+		{"type":"PartMove",
+		"progress":"recoil",
+		"rot":-9
+		}	],
+		"progress":"warmup",
+		"heatProgress":{
+		"blending":"additive",
+		"type":"warmup",
+		"other":{
+		"type":"warmup",
+		"op":"min",
+		"other":"heat"
+		}	}	},
+
+		{"type":"RegionPart",
+		"suffix":"-spine",
+		"mirror":true,
+		"moveRot":-74,
+		"moveX":8,
+		"layerOffset":-0.001,
+		"heatColor":"FCF387FF",
+		"x":6,"y":-6,
+		"moves":[
+		{"type":"PartMove",
+		"progress":{
+		"type":"warmup",
+		"op":"blend",
+		"other":"recoil",
+		"amount":1.15
+		},
+		"rot":-9
+		}	],
+		"progress":"warmup",
+		"heatProgress":{
+		"blending":"additive",
+		"type":"warmup",
+		"other":{
+		"type":"warmup",
+		"op":"min",
+		"other":"heat"
+		}	}	},
+
+		{"type":"RegionPart",
+		"suffix":"-spine",
+		"mirror":true,
+		"moveRot":-104,
+		"moveX":5,
+		"layerOffset":-0.001,
+		"heatColor":"FCF387FF",
+		"y":-9,
+		"x":6,
+		"moves":[
+		{"type":"PartMove",
+		"progress":{
+		"type":"warmup",
+		"op":"blend",
+		"other":"recoil",
+		"amount":1.25
+		},
+		"rot":-9
+		}	],
+		"progress":"warmup",
+		"heatProgress":{
+		"blending":"additive",
+		"type":"warmup",
+		"other":{
+		"type":"warmup",
+		"op":"min",
+		"other":"heat"
+		}	}	}	],
+
+		"bullet":{
+		"spawnBullets":[
+
+		],
+		"sprite":"none",
+		"damage":1,
+		"speed":180,
+		"lifetime":30,
+		"width":1,"height":1,
+		"despawnEffect":"none",
+		"shootEffect":"none",
+		"hitEffect":"none"
+		}	}	]
+}
