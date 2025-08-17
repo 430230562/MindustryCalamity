@@ -12,17 +12,6 @@
 
 ---
 
-## Community
-+ **Discord Server**
-
-  [![Discord](https://shields.io/)](https://discord.gg/zB9Kf5ZWCG)
-
-+ **QQ Group | QQ群**
-
-  ![QQ](github-pictures/qq-code.png)
-
----
-
 ## Overview
 </div>
 
