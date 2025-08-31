@@ -5,8 +5,8 @@
 	"research":{
 	"parent":"payload-track",
 	"requirements":[
-	"chromium/2000",
-	"plastanium/1000",
+	"chromium/1600",
+	"plastanium/1200",
 	"silicon/3000"
 	]	},
 

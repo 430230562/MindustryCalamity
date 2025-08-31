@@ -3,7 +3,7 @@
 	"rotateSpeed":1.2,
 	"hitSize":17.5,
 	"health":3290,
-	"armor":13,
+	"armor":14,
 	"range":320,
 	"type":"mech",
 	"outlineColor":"2E2F34FF",
@@ -11,8 +11,8 @@
 	"research":{
 	"parent":"lighting",
 	"requirements":[
-	"plastanium/3200",
-	"silicon/5200"
+	"plastanium/1600",
+	"silicon/2600"
 	],
 	"objectives":[
 	"second-refabricator"

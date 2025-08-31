@@ -32,8 +32,8 @@
 	"parent":"wulfrum-core",
 	"objectives":[
 	{"type":"SectorComplete",
-	"preset":"HazeRavine"
-	}	]	},
+	"preset":"HazeRavine"}
+	]	},
 
 	"immunities":[
 	"calamity-icy","slow"

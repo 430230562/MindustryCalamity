@@ -5,14 +5,14 @@
 	"research":{
 	"parent":"armored-container",
 	"requirements":[
-	"chromium/5500",
-	"graphite/5000",
-	"plastanium/4000"
+	"chromium/1100",
+	"graphite/800",
+	"plastanium/800"
 	]	},
 
 	"requirements":[
 	"chromium/110",
-	"graphite/100",
+	"graphite/80",
 	"plastanium/80"
 	],
 

@@ -6,8 +6,8 @@
 	"research":{
 	"parent":"patrol",
 	"requirements":[
-	"plastanium/3200",
-	"silicon/5200"
+	"plastanium/1600",
+	"silicon/2600"
 	],
 	"objectives":[
 	"second-refabricator"

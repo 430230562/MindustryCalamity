@@ -10,8 +10,8 @@
 	"research":{
 	"parent":"armored-insulated-wall",
 	"requirements":[
-	"chromium/2400",
-	"plastanium/2400"
+	"chromium/1200",
+	"plastanium/1200"
 	]	},
 
 	"requirements":[

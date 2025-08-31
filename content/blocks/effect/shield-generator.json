@@ -44,9 +44,9 @@
 	"research":{
 	"parent":"repair-projector",
 	"requirements":[
-	"plastanium/3000",
-	"graphite/4000",
-	"silicon/6000"
+	"plastanium/1500",
+	"graphite/2000",
+	"silicon/3000"
 	]	},
 
 	"requirements":[

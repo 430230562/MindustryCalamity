@@ -3,7 +3,7 @@
 	"category":"production",
 
 	"research":{
-	"parent":"oil-rig",
+	"parent":"oil-rig-deep",
 	"requirements":[
 	"tungsten/750",
 	"silicon/900",
@@ -24,7 +24,7 @@
 	"drawLiquid":"oil"
 	},
 	{"type":"DrawRegion",
-	"suffix":"-spinner",
+	"suffix":"-rotator",
 	"rotateSpeed":9,
 	"rotation":45
 	},
@@ -32,14 +32,8 @@
 	"suffix":"-cap"
 	}	]	},
 
-	"consumes":{"power":2,
-	"items":{
-	"items":[
-	"sand/1"
-	]	},
-	"liquid":{
-	"liquid":"water","amount":0.2
-	}	},
+	"consumes":{"power":3,
+	},
 
 	"placeableLiquid":true,
 	"requiresWater":true,
@@ -55,7 +49,7 @@
 	"floating":true,
 	"baseEfficiency":0,
 	"outputLiquid":"oil/0.333333333333333",
-	"minEfficiency":1,
-	"displayEfficiencyScale":0.111111111111111,
-	"boostScale":0.11111111111111111
+	"maxBoost":10
+	"minEfficiency":0.1,
+	"boostScale":0.111111111111111,
 }

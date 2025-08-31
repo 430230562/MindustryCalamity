@@ -10,8 +10,8 @@
 	"research":{
 	"parent":"chromium-wall",
 	"requirements":[
-	"chromium/600",
-	"plastanium/600"
+	"chromium/300",
+	"plastanium/300"
 	]	},
 
 	"requirements":[

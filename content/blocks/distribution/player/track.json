@@ -2,7 +2,6 @@
 //	"type":"Duct",
 	"category":"distribution",
 
-	"alwaysUnlocked":true,
 	"research":{
 	"parent":"origin-core"
 	},
@@ -15,7 +14,7 @@
 	"health":100,
 	"solid":false,
 	"underBullets":true,
-	"speed":2.5,
+	"speed":4,
 	"itemCapacity":1,
 	"bridgeReplacement":"track-bridge",
 	"junctionReplacement":"track-junction"

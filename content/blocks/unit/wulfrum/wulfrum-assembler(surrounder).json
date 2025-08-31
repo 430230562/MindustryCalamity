@@ -30,7 +30,7 @@
 
 		"plans":[
 		{"unit":"wulfrum-warplane",
-		"time":3000,
+		"time":3600,
 		"requirements":[
 		"calamity-wulfrum-surrounder/2",
 		]	}

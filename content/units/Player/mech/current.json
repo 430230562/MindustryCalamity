@@ -10,9 +10,8 @@
 	"research":{
 	"parent":"mech-manufacturer",
 	"requirements":[
-	"nickel/150",
-	"graphite/150",
-	"silicon/150"
+		"graphite/30",
+		"silicon/40"
 	]	},
 
 	"immunities":[

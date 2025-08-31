@@ -5,9 +5,9 @@
 	"research":{
 	"parent":"origin-core",
 	"requirements":[
-	"nickel/200",
-	"graphite/300",
-	"silicon/300"
+	"nickel/100",
+	"graphite/150",
+	"silicon/150"
 	]	},
 
 	"requirements":[

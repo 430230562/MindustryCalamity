@@ -1,5 +1,5 @@
 {
-	"speed":0.3,
+	"speed":0.15,
 	"rotateSpeed":0.8,
 	"hitSize":45,
 	"health":13000,
@@ -18,10 +18,10 @@
 	"lowAltitude":true,
 
 	"research":{
-//	"parent":"wulfrum-armored-crawler",
+	"parent":"wulfrum-armored-crawler",
 	"objectives":[
 	{"type":"SectorComplete",
-	"preset":"HazeRavine"
+	"preset":"FloatingIceBay"
 	}	]	},
 
 	"immunities":["calamity-icy","slow","wet"

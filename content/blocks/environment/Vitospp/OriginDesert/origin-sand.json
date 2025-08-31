@@ -6,7 +6,7 @@
 "attributes":{
 "heat":0,
 "spores":0,
-"water":0,
+"water":-1,
 "oil":0,
 "sand":1
 },

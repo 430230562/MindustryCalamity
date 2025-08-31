@@ -10,8 +10,8 @@
 	"research":{
 	"parent":"energy-node",
 	"requirements":[
-	"tungsten/1000",
-	"plastanium/500"
+	"tungsten/400",
+	"plastanium/200"
 	]	},
 
 	"requirements":[

@@ -10,9 +10,9 @@
 	"research":{
 	"parent":"snowball-cannon",
 	"requirements":[
-	"plastanium/1800",
-	"graphite/2400",
-	"silicon/2400"
+	"plastanium/900",
+	"graphite/1200",
+	"silicon/1200"
 	]	},
 
 	"requirements":[

@@ -45,7 +45,6 @@
 		"homingRange":250,
 		"homingDelay":8,
 		"homingPower":0.1,
-		"collidesAir":false,
 		"frontColor":"8598BFFF",
 		"backColor":"DEEDFFFF",
 

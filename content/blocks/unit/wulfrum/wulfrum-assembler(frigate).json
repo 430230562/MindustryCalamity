@@ -30,7 +30,7 @@
 
 		"plans":[
 		{"unit":"wulfrum-cruiser",
-		"time":3000,
+		"time":3600,
 		"requirements":[
 		"calamity-wulfrum-frigate/2"
 		]	}

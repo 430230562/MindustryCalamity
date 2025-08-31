@@ -5,7 +5,7 @@
 	"health":1850,
 	"armor":4,
 	"size":3,
-	"reload":3900,
+	"reload":5700,
 	"range":200,
 	"recoil":0,
 	"shootY":0,
@@ -115,7 +115,7 @@
 	"alwaysShooting":true,
 
 		"shoot":{"type":"shootSpread",
-		"firstShotDelay":3600,
+		"firstShotDelay":5400,
 		"spread":360,
 		"shots":5,
 		"shotDelay":60},
@@ -139,7 +139,7 @@
 		"interp":"swingOut",
 		"length":0,
 		"spin":5,
-		"lifetime":3600,
+		"lifetime":5400,
 		"region":"calamity-prism-large",
 		"colorFrom":"C2FF43FF",
 		"colorTo":"C2FF43FF"
@@ -151,7 +151,7 @@
 		"interp":"swingOut",
 		"length":0,
 		"spin":-5,
-		"lifetime":3600,
+		"lifetime":5400,
 		"region":"calamity-prism-large",
 		"colorFrom":"C2FF43FF",
 		"colorTo":"C2FF43FF"

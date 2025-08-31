@@ -18,9 +18,9 @@
 	"research":{
 	"parent":"aggregation",
 	"requirements":[
-	"forgotten-crystals/3000",
-	"plastanium/3200",
-	"silicon/5200"
+	"forgotten-crystals/2600",
+	"plastanium/1600",
+	"silicon/2600"
 	],
 	"objectives":[
 	"second-refabricator"
@@ -36,7 +36,7 @@
 	"hitSize":30,
 	"health":3460,
 	"faceTarget":true,
-	"armor":10,
+	"armor":12,
 	"drag":0.4,
 	"range":200,
 	"maxRange":130,
@@ -86,11 +86,11 @@
 		"bullet":{
 		"type":"ContinuousFlameBulletType",
 		"colors":["EB7ABE","E189F5","907EF7","91A4FF","FFFFFF"],
-		"damage":22,
+		"damage":36,
 		"width":6.5,"length":170,
 		"drawFlare":false,
 		"drawSize":200,
-		"pierceCap":2,
+		"pierceCap":4,
 		"pierce":true,
 		"pierceBuilding":true,
 		"status":"shadowflame",

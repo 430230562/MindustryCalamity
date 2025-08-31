@@ -5,9 +5,9 @@
 	"research":{
 	"parent":"cut-drill",
 	"requirements":[
-	"chromium/2000",
-	"silicon/1500",
-	"plastanium/1000"
+	"chromium/1000",
+	"silicon/750",
+	"plastanium/500"
 	]	},
 
 	"requirements":[

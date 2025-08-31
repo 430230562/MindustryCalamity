@@ -10,8 +10,8 @@
 	"research":{
 	"parent":"accumulation",
 	"requirements":[
-	"plastanium/3200",
-	"silicon/5200"
+	"plastanium/1600",
+	"silicon/2600"
 	],
 	"objectives":[
 	"second-refabricator"
@@ -42,7 +42,7 @@
 	}	],
 
 	"weapons":[
-	{"name":"wulfrum-bomber-rush",
+	{"name":"downpour-rush",
 	"x":0,"y":0,
 	"mirror":false,
 	"shootSound":"none",
@@ -70,6 +70,7 @@
 		"colorFrom":"8598BFFF",
 		"colorTo":"DEEDFFFF"
 		}	}	},
+
 		{"name":"bomber-weapon",
 		"mirror":false,
 		"x":0,"y":0,
@@ -100,8 +101,8 @@
 		"shrinkX":0,"shrinkY":0,
 		"despawnShake":3,
 		"hitSound":"plasmaboom",
-		"splashDamage":80,
-		"splashDamageRadius":40,
+		"splashDamage":200,
+		"splashDamageRadius":48,
 		"keepVelocity":false,
 		"width":20,"height":20,
 		"frontColor":"8598BFFF",

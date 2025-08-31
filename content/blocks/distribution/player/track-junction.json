@@ -3,7 +3,10 @@
 	"category":"distribution",
 
 	"research":{
-	"parent":"track"
+	"parent":"track",
+	"requirements":[
+	"nickel/20"
+	]
 	},
 
 	"requirements":[

@@ -5,8 +5,8 @@
 	"research":{
 	"parent":"energy-node",
 	"requirements":[
-	"plastanium/600",
-	"silicon/300"
+	"plastanium/400",
+	"silicon/150"
 	]	},
 
 	"requirements":[

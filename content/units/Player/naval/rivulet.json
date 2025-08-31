@@ -15,9 +15,9 @@
 	"research":{
 	"parent":"dew",
 	"requirements":[
-	"metaglass/2400",
-	"plastanium/600",
-	"silicon/3000"
+	"metaglass/1600",
+	"plastanium/400",
+	"silicon/4000"
 	],
 	"objectives":[
 	"elementary-shipyard"

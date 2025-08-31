@@ -24,15 +24,13 @@
 	"research":{
 	"parent":"geothermal-generator",
 	"requirements":[
-	"tungsten/6000",
-	"plastanium/3000",
-	"graphite/2000",
-	"silicon/3000"
+	"plastanium/1000",
+	"graphite/1000",
+	"silicon/1500"
 	]	},
 
 	"requirements":[
-	"tungsten/60",
-	"plastanium/30",
+	"plastanium/20",
 	"graphite/20",
 	"silicon/30"
 	],

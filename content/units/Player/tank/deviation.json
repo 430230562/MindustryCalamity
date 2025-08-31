@@ -1,6 +1,8 @@
 {
 	"type":"tank",
 	"template":"ErekirUnitType",
+	"name":"偏差",
+	"description":"向目标发射多枚放电穿透弹，搭载解裂系统。\n可以碾压建筑。",
 
 	"squareShape":true,
 	"treadPullOffset":11,
@@ -20,15 +22,15 @@
 	"iridium/30000",
 	"osmium/30000",
 	"metaglass/50000",
-	"silicon/13000",
-	"plastanium/50000"
-	],
+	"silicon/13000"
+	"plastanium/50000",
+	]
 	"objectives":[
 	"rudiment-assembler-module",
-	"senior-refabricator"
+	"senior-refabricator",
 	]	},
 
-	"armor":37,
+	"armor":39,
 	"hitSize":70,
 	"rotateSpeed":1,
 	"speed":0.5,
@@ -67,9 +69,11 @@
 	"top":true,
 	"heatColor":"FCF387FF",
 	"layerOffset":2,
+	"top":true,
 	"minWarmup":0.85,
 	"smoothReloadSpeed":0.08,
 	"shootWarmupSpeed":0.02,
+	"shake":2,
 
 		"shootSound":"largeCannon",
 		"velocityRnd":0.06,
@@ -185,15 +189,103 @@
 
 		"bullet":{
 		"spawnBullets":[
-
-		],
-		"sprite":"none",
-		"damage":1,
-		"speed":180,
+		{"fragBullets":7,
+		"fragRandomSpread":20,
+		"fragBullet":{
+		"type":"ArtilleryBulletType",
+		"width":9,
+		"height":13,
+		"frontColor":"FFFFFF",
+		"backColor":"FCF387FF",
 		"lifetime":30,
-		"width":1,"height":1,
-		"despawnEffect":"none",
-		"shootEffect":"none",
-		"hitEffect":"none"
+		"speed":6.5,
+		"damage":40,
+		"shrinkX":0,"shrinkY":0,
+		"recoil":2.25,
+
+		"hitColor":"D99F6BFF",
+		"status":"empI",
+		"statusDuration":100,
+
+		"shootEffect": {
+		"type": "MultiEffect",
+		"effects": ["shootBig2", "shootBigSmoke"]
+		},
+
+		"despawnHit":true,
+		"hitEffect":"massiveExplosion",
+		"trailColor":"D99F6BFF",
+		"trailLength":10,
+		"trailWidth":3
+		},
+		"type":"BulletType",
+		"lifetime":0
+		}	],
+
+		"type":"EmpBulletType",
+		"width":12,
+		"height":30,
+		"frontColor":"FCF387FF",
+		"backColor":"D99F6BFF",
+		"sprite":"missile-large-back",
+		"status":"empII",
+		"statusDuration":60,
+		"lifetime":36,
+		"speed":10,
+		"damage":180,
+		"shrinkX":0,"shrinkY":0,
+		"radius":72,
+		"lightning":5,
+		"lightningDamage":13,
+		"lightningColor":"FCF387FF",
+		"lightningLength":6,
+		"lightningCone":360,
+		"lightningLengthRand":10,
+		"absorbable":false,
+		"hittable":false,
+		"hitShake":2,
+
+		"hitPowerEffect":{
+		"type":"ParticleEffect",
+		"line":true,
+		"particles":6,
+		"lifetime":22,
+		"length":80,
+		"cone":-360,
+		"lenFrom":6,
+		"lenTo":6,
+		"colorFrom":"FFFFFFF",
+		"colorTo":"D99F6BFF"
+		},
+
+		"hitColor":"D99F6BFF",
+		"timeIncrease":0.5,
+		"powerDamageScl":0.3,
+		"powerSclDecrease":0.1,
+		"unitDamageScl":0.3,
+		"pierceCap":2,
+		"pierce":true,
+		"pierceBuilding":true,
+		"status":"freezing",
+		"statusDuration":100,
+
+		"shootEffect": "bigShockwave",
+		"smokeEffect": "shootBigSmoke",
+
+		"hitEffect":{
+		"type":"multiEffect",
+		"effects":[
+		{"type":"WrapEffect",
+		"effect":"dynamicSpikes",
+		"color":"FCF387FF",
+		"rotation":72
+		}	]	}
+
+		"trailEffect":"none",
+		"trailChance":1,
+		"trailParam":5,
+		"trailLength":12,
+		"trailColor":"FCF387FF",
+		"trailWidth":2.5
 		}	}	]
 }
