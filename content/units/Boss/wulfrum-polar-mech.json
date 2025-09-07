@@ -2,7 +2,7 @@
 	"speed":0.15,
 	"rotateSpeed":0.8,
 	"hitSize":45,
-	"health":13000,
+	"health":31000,
 	"armor":45,
 	"type":"mech",
 	"mechStepParticles":true,

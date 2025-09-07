@@ -12,8 +12,12 @@
 		"moveRot":-19,
 		"mirror":true,
 		"progress":"recoil",
-		"heatProgress":"recoil"
-		}	]	},
+	"heatProgress":{
+		"type":"recoil",
+		"op":"blend",
+		"amount":0,
+		"other":0
+		}	}	]	},
 
 	"research":{
 	"parent":"asteroid",

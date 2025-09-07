@@ -21,7 +21,7 @@
 	"speed":0.35,
 	"rotateSpeed":0.85,
 	"hitSize":35,
-	"health":11205,
+	"health":33205,
 	"faceTarget":true,
 	"armor":40,
 	"drag":0.4,
